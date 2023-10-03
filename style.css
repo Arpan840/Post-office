@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fornt {
+  width: 100vw;
+  display: flex;
+  height: 85vh;
+}
+.left {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  color: #575a85;
+  font-family: Montserrat;
+}
+.right {
+  width: 100%;
+  background: #575a85;
+  height: 105vh;
+  color: #b8bccc;
+  font-family: Inter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heroPic {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+.getStarted {
+  width: 145px;
+  height: 47px;
+  flex-shrink: 0;
+  background: #575a85;
+  border: 1px solid white;
+  border-radius: 10px;
+  border: 2px solid #b8bccc;
+  cursor: pointer;
+}
+.ApiInfo{
+    background-color: black;
+    color: white;
+    display: none;
+}
+.location{
+    display: flex;
+    width: 100vw;
+    gap: 40%;
+}
+
