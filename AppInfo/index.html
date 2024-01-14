@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <div
+      class="d-flex align-items-center justify-content-between bg-dark text-light px-4"
+    >
+      <h3 class="d-flex gap-4">IP Address : <span class="ipAddress"></span></h3>
+    </div>
+    <div
+      class="location d-flex align-items-center justify-content-center w-100 container bg-dark text-light"
+    >
+      <div>
+        <p class="d-flex gap-3">Lat:<span class="lat"></span></p>
+        <p class="d-flex gap-3">Long:<span class="long"></span></p>
+      </div>
+      <div>
+        <p class="d-flex gap-3">City:<span class="city"></span></p>
+        <p class="d-flex gap-3">Reagion:<span class="region"></span></p>
+      </div>
+      <div>
+        <p class="d-flex gap-3">Organisation:<span class="org"></span></p>
+        <p>Hostname:</p>
+      </div>
+    </div>
+    <div
+      class="d-flex w-100 align-items-center justify-content-center map"
+    ></div>
+    <div class="text-light mx-5">
+      <div class="w-100 text-light text-center">
+        <h1>More Information About You</h1>
+      </div>
+      <p class="d-flex gap-3">Time Zone: <span class="timezone"></span></p>
+      <p class="d-flex gap-3">Date And Time:<span class="dateTime"></span></p>
+      <p class="d-flex gap-3">Pincode:<span class="Pincode"></span></p>
+      <p class="d-flex gap-3">Message:<span class="message"></span></p>
+    </div>
+    <div class="my-3">
+      <div class="w-100 text-light text-center">
+        <h1>Post Offices Near You</h1>
+        <div
+          class="searchBar d-flex w-100 align-items-center justify-content-between"
+        >
+          <input
+            class="form-control mr-sm-2 mx-5 my-5 searchPostOffice"
+            type="search"
+            placeholder="Search"
+            class="bg-black searchBar"          
+          aria-label="Search"
+          />
+        </div>
+        <div
+          class="d-flex post-office flex-wrap w-100 gap-3 justify-content-center overflow-hidden"
+        ></div>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
